@@ -3,7 +3,6 @@
 #include <cmath>
 #include <string>
 #include "Header.h"
-
 int main() {
 	long num;
 	std::cin >> num;
