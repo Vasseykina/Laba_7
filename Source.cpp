@@ -1,6 +1,6 @@
 #include "Header.h"
 #include <cmath>  
-#include <cstring>
+#include <string>
 void ltoao(long number, std::string& res) {
     const char sym[] = "01234567";
     res.clear();

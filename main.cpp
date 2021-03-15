@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cmath>
-#include <cstring>
+#include <string>
 #include "Header.h"
 
 int main() {

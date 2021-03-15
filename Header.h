@@ -1,4 +1,4 @@
 #pragma once
-#include <cstring>
+#include <string>
 void ltoao(long number, std::string& res);
 
