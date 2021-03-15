@@ -1,5 +1,5 @@
-#ifndef SOME_UNIQUE_NAME_HERE
-#define SOME_UNIQUE_NAME_HERE
+#ifndef HEADER_H
+#define HEADER_H
 #include <string>
 void ltoao(long number, std::string& res);
-#endif SOME_UNIQUE_NAME_HERE
+#endif HEADER_H
