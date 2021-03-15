@@ -1,4 +1,3 @@
 #pragma once
-void swap(char* s);
-char* ltoab(long num, char* c);
+void ltoao(long number, std::string& res);
 
