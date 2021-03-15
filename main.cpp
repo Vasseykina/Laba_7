@@ -1,15 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <math.h>
-#include <string>
+#include <iostream>
+#include <cmath>
+#include <cstring>
 #include "Header.h"
 
 int main() {
 	long num;
-	scanf("%ld", &num);
-	std::string s[256] ;
-	ltoao(num, &s);
+	std::cin >> num;
+	std::string s[256];
+	ltoao(num, *s);
 	for (int i = 0; i < (sizeof(s) / sizeof(s[1])); ++i) {
-		printf("%c", s[i]);
+		std::cout << s[i];
 	}
 }
